@@ -1,18 +1,52 @@
 <!DOCTYPE html>
 <!-- Страница с аккордеоном -->
-<html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./accordion.css">
-    </head>
-    <body>
-        <details>
-            <summary>
-                Accordion item
-            </summary>
-            <p>
-                Hidden content
-            </p>
-        </details>
-    </body>
+<html lang='ru'>
+<head>
+  <link href='../../node_modules/normalize.css/normalize.css' rel='stylesheet'>
+  <link href='../../assets/css/main.css' rel='stylesheet'>
+  <link href='./accordion.css' rel='stylesheet'>
+</head>
+<body>
+<div class='accordion'>
+  <details class='accordion__item'>
+    <summary class='accordion__item__summary'>
+      Accordion item 1
+    </summary>
+    <div class='accordion__item__content'>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis nesciunt sunt quos natus, nisi officia
+        provident
+        nihil sapiente consequatur, voluptatibus veniam. Esse nesciunt laboriosam est aut omnis, nulla laborum
+        voluptate.
+      </p>
+    </div>
+  </details>
+  <details class='accordion__item'>
+    <summary class='accordion__summary'>
+      Accordion item 2
+    </summary>
+    <div class='accordion__content'>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis nesciunt sunt quos natus, nisi officia
+        provident
+        nihil sapiente consequatur, voluptatibus veniam. Esse nesciunt laboriosam est aut omnis, nulla laborum
+        voluptate.
+      </p>
+    </div>
+  </details>
+  <details class='accordion__item'>
+    <summary class='accordion__summary'>
+      Accordion item 3
+    </summary>
+    <div class='accordion__content'>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis nesciunt sunt quos natus, nisi officia
+        provident
+        nihil sapiente consequatur, voluptatibus veniam. Esse nesciunt laboriosam est aut omnis, nulla laborum
+        voluptate.
+      </p>
+    </div>
+  </details>
+</div>
+</body>
 </html>
