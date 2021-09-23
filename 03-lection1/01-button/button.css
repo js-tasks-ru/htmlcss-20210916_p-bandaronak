@@ -1,1 +1,58 @@
-/* Стилизация кнопки */
+/*Стили в main.css не содержат некоторых цветов
+Добавляю их тут, т.к. main.css будет обновлен в другом пул-реквесте
+*/
+:root   {
+    --blue-2: #4263EB;
+    --blue-3: #2342C0;
+    --purple-2: #5028C6;
+}
+
+
+.display_inline-block {
+    display: inline-block;
+}
+
+.button {
+    width: 189px;
+    height: 48px;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.button__primary {
+    background: var(--blue-2);
+}
+
+.button__primary:hover {
+    background: var(--blue-3);
+    cursor: pointer;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.button__secondary {
+    background: var(--purple);
+}
+
+.button__secondary:hover {
+    background: var(--purple-2);
+    cursor: pointer;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.button__alternate {
+    border: 1px solid var(--grey-3);
+    box-sizing: border-box;
+    color: var(--grey-4);
+}
+
+.button__alternate:hover {
+    border: 1px solid var(--black);
+    cursor: pointer;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.button_disabled {
+    opacity: 0.5;
+    cursor: not-allowed !important;
+}
