@@ -29,7 +29,6 @@
     flex-flow: column nowrap;
     flex: auto;
     overflow: hidden;
-    margin-right: 1em;
 }
 
 .skeleton__line {
